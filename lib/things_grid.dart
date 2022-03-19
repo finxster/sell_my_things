@@ -18,7 +18,7 @@ class ThingsGrid extends StatelessWidget {
         return ThingItem(thing);
       },
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 3,
+        crossAxisCount: 2,
         childAspectRatio: 3 / 2,
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
