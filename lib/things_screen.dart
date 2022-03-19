@@ -8,7 +8,7 @@ class ThingsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Vendendo'),
+        title: const Text('Estamos de mudança \\o/ e precisamos vender esses itens:'),
       ),
       body: const ThingsGrid(),
     );

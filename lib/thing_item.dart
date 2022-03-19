@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:sell_my_things/thing.dart';
 
 class ThingItem extends StatelessWidget {
@@ -42,9 +43,21 @@ class ThingItem extends StatelessWidget {
 //                      .secondary,
 //                ),
 //          ),
-          title: Text(
-            thing.title,
-            textAlign: TextAlign.center,
+          trailing: Text(
+            NumberFormat.simpleCurrency(
+              decimalDigits: 2,
+              locale: 'pt_BR',
+            ).format(thing.price),
+            style: const TextStyle(color: Colors.white),
+          ),
+          subtitle: Text(thing.description),
+          title: Column(
+            children: [
+              Text(
+                thing.title,
+                textAlign: TextAlign.center,
+              ),
+            ],
           ),
 //          trailing: IconButton(
 //            icon: const Icon(Icons.shopping_cart),
