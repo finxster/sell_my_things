@@ -43207,8 +43207,8 @@ Dw(a){var s=this.b
 return s*(B.h.fg(a-1,this.a)+1)-(s-this.d)}}
 A.Xb.prototype={}
 A.Xc.prototype={
-xg(a){var s=Math.max(0,a.x-20)/3,r=s/1.5
-return new A.Xf(3,r+10,s+10,r,s,A.a2S(a.y))}}
+xg(a){var s=Math.max(0,a.x-10)/2,r=s/1.5
+return new A.Xf(2,r+10,s+10,r,s,A.a2S(a.y))}}
 A.oq.prototype={
 h(a){return"crossAxisOffset="+A.e(this.x)+"; "+this.Ke(0)}}
 A.Do.prototype={
