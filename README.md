@@ -2,6 +2,8 @@
 
 A Flutter application to sell things.
 
+https://finxster.github.io/sell_my_things/#/
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
